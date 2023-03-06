@@ -22,7 +22,7 @@ function ChatContainer({currentChat,currentUser,socket}){
         message: msg,
         date: new Date()
        });
-
+           //
        socket.current.emit("send-msg",{
         to: currentChat._id,
         from: currentUser._id,
