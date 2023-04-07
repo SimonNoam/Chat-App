@@ -32,13 +32,13 @@ function Contacts({contacts,currentUser,changeChat}){
                 contacts.map((contact, index) => {
                    return (
                       <div
-                       className={`contact ${index === currentSelected ? "selected" : "" } ${contact.connected ? "connected" : ""}`}
+                       className={`contact ${index === currentSelected ? "selected" : "" } ${contact.connected ? "connected" :""}`}
                           key={contact._id}
                              onClick={()=>changeCurrentChat(index,contact)}>
                              <div className="avatar">
                                <img src={`data:image/svg+xml;base64,${contact.avatarImage}`} alt="avatar" />
                              </div>
-                         <div className={`username  ${contact.connected ? "connected" : ""}`}>
+                         <div className={`username  ${contact.connected ? "connected" : "not"}`}>
                              <h3>{contact.username}</h3>
                         </div>
                     </div>
@@ -119,7 +119,10 @@ background-color: #080420;
     background-color: #9a86f3;
   }
   .connected{
-    color: green;
+    color: lightgreen;
+  }
+  .not{
+    color: pink;
   }
 }
 .current-user {

@@ -95,7 +95,7 @@ height: 100vh;
   justify-content: center;
   gap: 1rem;
   align-items: center;
-  background-color: #131324;
+  background-image:url('https://thumbs.gfycat.com/AccurateNimbleBighornedsheep-size_restricted.gif'); background-repeat:repeat;
   .brand {
     display: flex;
     align-items: center;

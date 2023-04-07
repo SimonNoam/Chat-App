@@ -251,13 +251,13 @@ display: grid;
     .sended {
       justify-content: flex-end;
       .content {
-        background-color: #4f04ff21;
+        background-color: #4f04ff81;
       }
     }
     .recieved {
       justify-content: flex-start;
       .content {
-        background-color: #9900ff20;
+        background-color: #9900ff40;
       }
     }
 `;

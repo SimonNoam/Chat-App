@@ -105,7 +105,7 @@ const FormContainer = styled.div`
   justify-content: center;
   gap: 1rem;
   align-items: center;
-  background-color: #131324;
+  background-image:url('https://thumbs.gfycat.com/AccurateNimbleBighornedsheep-size_restricted.gif'); background-repeat:repeat;
   .brand {
     display: flex;
     align-items: center;
@@ -125,7 +125,7 @@ const FormContainer = styled.div`
     gap: 2rem;
     background-color: #00000076;
     border-radius: 2rem;
-    padding: 3rem 5rem;
+    padding: 1rem 3rem;
   }
   input {
     background-color: transparent;
@@ -155,7 +155,7 @@ const FormContainer = styled.div`
     }
   }
   span {
-    color: white;
+    color:white;
     text-transform: uppercase;
     a {
       color: #4e0eff;

@@ -33,7 +33,7 @@ line-height: 12px;
 width: 40px;
 font-size: 8pt;
 font-family: tahoma;
-margin-top: 75px;
+margin-top: 50px;
 margin-right: 180px;
 position:absolute;
 top:0;

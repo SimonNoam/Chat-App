@@ -1,7 +1,7 @@
 import React ,{useState,useEffect} from "react";
 import styled from "styled-components"
 import { useNavigate} from "react-router-dom"
-import loader from "../assets/loader.gif"
+import loader from "../assets/robott.gif"
 import {ToastContainer,toast} from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
@@ -125,7 +125,8 @@ height: 100vh;
 width: 100vw;
 
 .loader {
-  max-inline-size: 100%;
+  max-inline-size: 40%;
+  
 }
 
 .title-container {
