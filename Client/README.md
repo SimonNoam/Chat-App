@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+  <h1>Chat App</h1>
+    <p>This is a chat application built using the MERN stack (MongoDB, Express, React, Node.js) with Socket.io for real-time messaging and JWT Token for authentication.</p>
+    <h2>Getting Started</h2>
+<p>To get started with this project, you'll need to clone the repository and install the necessary dependencies.</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3>Prerequisites</h3>
+<ul>
+  <li>Node.js</li>
+  <li>MongoDB</li>
+</ul>
 
-## Available Scripts
+<h3>Installation</h3>
+<ol>
+  <li>Clone the repository.</li>
+  <code>git clone https://github.com/&lt;your-username&gt;/chat-app.git</code>
+  
+  <li>Navigate to the root directory of the project and install the dependencies for the server.</li>
+  <code>cd chat-app/server</code>
+  <code>npm install</code>
+  
+  <li>Install the dependencies for the client.</li>
+  <code>cd ../client</code>
+  <code>npm install</code>
+  
+  <li>Create a .env file in the server directory with the following variables:</li>
+  <pre>MONGO_URI=&lt;your-mongodb-uri&gt;
+   <li>Start the server.</li>
+  <code>cd ../server</code>
+  <code>npm start</code>
+  
+  <li>Start the client.</li>
+  <code>cd ../client</code>
+  <code>npm start</code>
+</ol>
 
-In the project directory, you can run:
+<h2>Pages</h2>
 
-### `npm start`
+<h3>Login</h3>
+<p>The login page allows users to log in to the chat application. Users are required to provide their username and password. If the user does not have an account, they can click on the "Register" button to create a new account.</p>
+<img src="" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h3>Register</h3>
+<p>The register page allows users to create a new account. Users are required to provide their name, email, username, password, and upload an avatar image.</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h3>Set Avatar</h3>
+<p>The set avatar page allows users to update their avatar image. Users are required to upload an image file.</p>
 
-### `npm test`
+<h3>Chat</h3>
+<p>The chat page allows users to chat with other users in real-time. Users can send text messages, images, and emojis. Each message also includes the user's avatar image.</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2>Technologies Used</h2>
+<ul>
+  <li>MERN Stack (MongoDB, Express, React, Node.js)</li>
+  <li>Socket.io</li>
+  <li>JWT Token</li>
+</ul>
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h2>Contributors</h2>
+<ul>
+  <li>&lt;Your Name&gt; (<a href="https://github.com/&lt;your-github-username&gt;">https://github.com/&lt;your-github-username&gt;</a>)</li>
+</ul>
