@@ -45,7 +45,7 @@
 
 <h3>Set Avatar</h3>
 <p>The set avatar page allows users to select their avatar image. Users are required to choose avatr.</p>
-<p while the avatars loading cool robot dance/>
+<p while the avatars loading cool robot dance </p>
 <img src="https://user-images.githubusercontent.com/113131666/230651005-a173acbb-b48b-4748-ad57-186c4d5d3e9b.png"/>
 <img src="https://user-images.githubusercontent.com/113131666/230651052-9cf90c1f-e541-49fe-8201-6b27ac6dccbd.png"/>
 
